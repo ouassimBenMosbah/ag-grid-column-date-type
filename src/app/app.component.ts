@@ -32,7 +32,8 @@ export class AppComponent implements OnInit {
       { field: 'price' },
       {
         field: 'created',
-        type: ColumnTypeEnum.date.toString(),
+        type: ColumnTypeEnum.date.toString(), // this line is mandatory to apply date column def
+        /* we can also add as many custom options in this specific context */
         editable: true,
       },
     ];

@@ -17,7 +17,9 @@ export class AgGridHelperService {
   public getDefaultAgGridOptions(): GridOptions {
     return {
       /*
-       ** Add whatever options you want **
+       * ...
+       * Add whatever options you want *
+       * ...
        */
       stopEditingWhenGridLosesFocus: true,
       defaultColDef: {
